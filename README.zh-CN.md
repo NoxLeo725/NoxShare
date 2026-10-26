@@ -8,6 +8,8 @@
 
 **当前版本 1.0.7 · Android 8.0 及以上 · 简体中文 / English**
 
+[下载 APK](https://github.com/NoxLeo725/NoxShare/releases/download/v1.0.7/NoxShare-1.0.7.apk) · [更新说明](https://github.com/NoxLeo725/NoxShare/releases/tag/v1.0.7)
+
 <p><img src="docs/images/chat-zh.png" width="290" alt="中文聊天界面"> <img src="docs/images/chat-en.png" width="290" alt="英文聊天界面"></p>
 
 ## 功能
@@ -26,7 +28,7 @@
 
 ## 快速使用
 
-1. 按[构建说明](docs/BUILD.zh-CN.md)生成 APK，传到 Android 手机安装。
+1. 在 [Releases 下载 APK](https://github.com/NoxLeo725/NoxShare/releases/latest)，传到 Android 手机安装；也可按[构建说明](docs/BUILD.zh-CN.md)自行编译。
 2. 手机和其他设备连接同一个 Wi-Fi，也可让其他设备连接手机热点。
 3. 打开 NoxShare，在顶部面板点击「开启共享」。
 4. 其他设备用浏览器打开显示的地址，例如 `http://192.168.1.108:8787`，或扫描二维码。

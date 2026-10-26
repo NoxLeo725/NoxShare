@@ -8,6 +8,8 @@ A chat-style Android app for sharing files, images, videos and messages over you
 
 **Version 1.0.7 · Android 8.0+ · English / 简体中文**
 
+[Download APK](https://github.com/NoxLeo725/NoxShare/releases/download/v1.0.7/NoxShare-1.0.7.apk) · [Release notes](https://github.com/NoxLeo725/NoxShare/releases/tag/v1.0.7)
+
 <p><img src="docs/images/chat-en.png" width="290" alt="English chat interface"> <img src="docs/images/chat-zh.png" width="290" alt="Chinese chat interface"></p>
 
 ## Features
@@ -26,7 +28,7 @@ A chat-style Android app for sharing files, images, videos and messages over you
 
 ## Quick start
 
-1. [Build the APK](docs/BUILD.en.md), transfer it to your Android phone and install it.
+1. [Download the APK](https://github.com/NoxLeo725/NoxShare/releases/latest), transfer it to your Android phone and install it. You can also [build from source](docs/BUILD.en.md).
 2. Connect the phone and other devices to the same Wi-Fi, or connect them to the phone’s hotspot.
 3. Open NoxShare and tap **Start sharing** in the top panel.
 4. Open the displayed address, such as `http://192.168.1.108:8787`, in another device’s browser, or scan the QR code.
