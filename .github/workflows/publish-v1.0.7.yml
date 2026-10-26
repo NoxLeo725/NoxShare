@@ -1,0 +1,49 @@
+name: Publish NoxShare v1.0.7
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/publish-v1.0.7.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-noxshare-v1.0.7
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.repository == 'NoxLeo725/NoxShare' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Verify assets and publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64
+          import json
+          import os
+          import re
+          from urllib.request import Request, urlopen
+
+          repo = os.environ['GITHUB_REPOSITORY']
+          commit = os.environ['GITHUB_SHA']
+          if repo != 'NoxLeo725/NoxShare' or not re.fullmatch(r'[0-9a-f]{40}', commit):
+              raise RuntimeError('Unexpected release source')
+          url = f'https://api.github.com/repos/{repo}/contents/tools/publish_release.py?ref={commit}'
+          headers = {
+              'Authorization': 'Bearer ' + os.environ['GH_TOKEN'],
+              'Accept': 'application/vnd.github+json',
+              'User-Agent': 'NoxShare-release-bootstrap',
+          }
+          with urlopen(Request(url, headers=headers), timeout=60) as response:
+              source = json.load(response)
+          code = base64.b64decode(source['content']).decode('utf-8')
+          exec(compile(code, 'tools/publish_release.py', 'exec'), {'__name__': '__main__'})
+          PY

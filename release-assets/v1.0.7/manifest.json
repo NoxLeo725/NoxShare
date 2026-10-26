@@ -1,0 +1,23 @@
+{
+  "version": "1.0.7",
+  "assets": [
+    {
+      "name": "NoxShare-1.0.7.apk",
+      "size": 96557,
+      "sha256": "79b6f20121fb4177e26c4ece7d34118a48dd2298e6b2b95c251c2d5e0436497a",
+      "content_type": "application/vnd.android.package-archive"
+    },
+    {
+      "name": "NoxShare-1.0.7-source.zip",
+      "size": 264995,
+      "sha256": "8da53fcb1aa5ecc5c9fb662ee04b3e9600b10c9847ddfbd319ab7ed1bc120d0e",
+      "content_type": "application/zip"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 177,
+      "sha256": "34c8b26cd99337fe354622ce8e59410585bbcee97bb203c0fe24080f196b557c",
+      "content_type": "text/plain"
+    }
+  ]
+}
