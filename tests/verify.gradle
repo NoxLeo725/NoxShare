@@ -1,0 +1,7 @@
+allprojects { layout.buildDirectory = new File(rootProject.projectDir, 'build/verify/' + project.name) }
+gradle.beforeProject { appProject ->
+    appProject.plugins.withId('com.android.application') {
+        appProject.android.buildTypes.debug.applicationIdSuffix = '.verify'
+        appProject.android.defaultConfig.testInstrumentationRunner = appProject.findProperty('noxshareRunner') ?: 'com.noxleo.share.FeatureInstrumentation'
+    }
+}
