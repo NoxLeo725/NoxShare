@@ -4,7 +4,7 @@
 
 [简体中文](README.zh-CN.md) · **English**
 
-A chat-style Android app for sharing files, images, videos and messages over your local network. Other devices join through a browser. Made by **@NoxLeo**.
+A chat-style Android app for sharing files, images, videos and messages over your local network. Other devices join through a browser. Made by **[NoxLeo725](https://github.com/NoxLeo725)**. App signature: **@NoxLeo**.
 
 **Version 1.0.7 · Android 8.0+ · English / 简体中文**
 

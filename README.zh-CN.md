@@ -4,7 +4,7 @@
 
 **简体中文** · [English](README.md)
 
-聊天式 Android 局域网共享工具，可互发文件、图片、视频和文字。其他设备使用浏览器即可加入。制作：**@NoxLeo**。
+聊天式 Android 局域网共享工具，可互发文件、图片、视频和文字。其他设备使用浏览器即可加入。制作：**[NoxLeo725](https://github.com/NoxLeo725)**。APP 内署名：**@NoxLeo**。
 
 **当前版本 1.0.7 · Android 8.0 及以上 · 简体中文 / English**
 

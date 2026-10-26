@@ -51,4 +51,4 @@ http/https、www 网址和带端口的局域网地址会变为可点击链接，
 
 共享期间保持主机 APP 运行，部分手机需要在系统设置允许后台活动。重新连接 Wi-Fi 后如果 IP 变化，应使用 APP 显示的新地址。
 
-制作：**@NoxLeo**。
+GitHub 作者：**[NoxLeo725](https://github.com/NoxLeo725)**。APP 内署名：**@NoxLeo**。

@@ -51,4 +51,4 @@ Check **… → Network info** for connection status, host IP, gateway, port and
 
 Keep the host app running during sharing. Some phones require allowing background activity in their system settings. If the host IP changes after reconnecting to Wi-Fi, use the new address shown in the app.
 
-Made by **@NoxLeo**.
+GitHub author: **[NoxLeo725](https://github.com/NoxLeo725)**. App signature: **@NoxLeo**.
